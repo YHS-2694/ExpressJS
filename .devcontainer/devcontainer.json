@@ -1,0 +1,16 @@
+{
+  "name": "Node.js",
+  // If your template used "image", keep it. Either image OR features is fine.
+  // "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+
+  // If your template used features, also fine:
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+
+  "postCreateCommand": "npm install --prefix backend",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Express App" }
+  },
+  
+  "remoteUser": "node"
+}
