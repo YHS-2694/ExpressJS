@@ -12,5 +12,13 @@
     "3000": { "label": "Express App" }
   },
   
-  "remoteUser": "node"
+  "remoteUser": "node",
+
+  "customizations": {
+		"vscode": {
+			"extensions": [
+				"bruno-api-client.bruno"
+			]
+		}
+	}
 }
